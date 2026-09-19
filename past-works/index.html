@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="willvidore — selected past writing: a CoralWatch brochure, a short story, and a technical flight manual.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%96%8B%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<title>willvidore — Past Works</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a href="../" class="wordmark">willvidore</a>
+    <nav aria-label="Primary">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
+        Menu
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../">About</a></li>
+        <li><a href="./" aria-current="page">Past Works</a></li>
+        <li><a href="../current-projects/">Current Projects</a></li>
+        <li><a href="../contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page">
+    <div class="page-inner">
+      <p class="eyebrow">Past Works</p>
+      <h1 class="display">Selected Writing</h1>
+      <p class="lede">A collection of creative and professional writing pieces from my past.</p>
+
+      <div class="works-list">
+
+        <!-- CORALWATCH BROCHURE -->
+        <article class="work-card">
+          <div class="work-head">
+            <div class="work-meta-row">
+              <span class="chip chip-design">Visual &amp; Persuasive Writing</span>
+              <span class="work-stats">Trifold brochure · 2 spreads</span>
+            </div>
+            <h2>CoralWatch: Explore. Dive. Save Reefs.</h2>
+            <p class="work-logline">A print brochure design for CoralWatch, a University of Queensland citizen-science program, written to turn readers into reef volunteers.</p>
+            <p class="work-desc">Combines layout design with persuasive and informational copywriting: the brochure introduces CoralWatch's mission, explains why coral reefs matter ecologically and economically, and lays out concrete ways readers can get involved — from citizen science dives to everyday actions at home.</p>
+            <button class="work-toggle" data-toggle aria-expanded="false" aria-controls="work-coral-full">
+              <span class="toggle-label" data-alt-text="Hide the brochure">View the brochure</span>
+              <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+          <div id="work-coral-full" class="work-full" hidden>
+            <div class="brochure">
+              <p class="brochure-intro">Designed as a trifold hand-out: the front panel works as a cover and call to action, the inside panel makes the case for reefs and how to help. Click either spread to view it at full size, or read the plain-text version below.</p>
+
+              <div class="brochure-gallery">
+                <figure class="brochure-panel" data-lightbox-src="../assets/coralwatch/coralwatch-front.jpg" data-lightbox-alt="CoralWatch brochure — front cover, coral health chart and contact panels">
+                  <img src="../assets/coralwatch/coralwatch-front.jpg" alt="CoralWatch brochure front panels: 'Where will you dive next?' with reef photography, a Coral Health Chart panel with contact details, and a cover panel reading 'Explore. Dive. Save Reefs.'" loading="lazy">
+                  <figcaption><span>Front — cover &amp; contact</span><span class="zoom-hint">Click to enlarge</span></figcaption>
+                </figure>
+                <figure class="brochure-panel" data-lightbox-src="../assets/coralwatch/coralwatch-inside.jpg" data-lightbox-alt="CoralWatch brochure — Our Mission, Why Are Our Corals So Important, and How You Can Help panels">
+                  <img src="../assets/coralwatch/coralwatch-inside.jpg" alt="CoralWatch brochure inside panels: 'Our Mission', 'Why are our corals so important?', and 'How You Can Help' with a volunteer checklist" loading="lazy">
+                  <figcaption><span>Inside — mission &amp; how to help</span><span class="zoom-hint">Click to enlarge</span></figcaption>
+                </figure>
+              </div>
+
+              <button class="brochure-transcript-toggle" data-toggle aria-expanded="false" aria-controls="coral-transcript">
+                <span class="toggle-label" data-alt-text="Hide brochure text">Read brochure text</span>
+                <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+
+              <div id="coral-transcript" class="brochure-text" hidden>
+                <h4>Explore. Dive. Save Reefs.</h4>
+                <p>Join us in protecting reefs around the world.</p>
+
+                <h4>Where Will You Dive Next?</h4>
+                <p>The world is wide, and wonder is waiting at every corner. With thousands of reefs to choose from, you can explore the mysteries of the ocean and save the seas at the same time from anywhere.</p>
+
+                <h4>Get Involved — The Reef Needs You!</h4>
+                <p>Check out our website to apply for a free Coral Watch Coral Health Chart, check out upcoming events, and learn more about protecting our reefs.</p>
+                <p class="brochure-contact">🌐 coralwatch.org &nbsp;·&nbsp; ✉ info@coralwatch.org &nbsp;·&nbsp; ☎ 07 3365 3127</p>
+
+                <h4>Our Mission</h4>
+                <p>Our mission is to create public understanding of the value of coral reefs and provide opportunities for the public to actively help save reefs through participation in scientific research and education.</p>
+                <p>We do this by providing:</p>
+                <ul>
+                  <li>Hands on monitoring tools</li>
+                  <li>Hands on education tools</li>
+                  <li>An online database for reef data</li>
+                </ul>
+                <p>We are a volunteer-run organisation, focused on saving reefs around the world by providing scientists with free-to-access data on over 1900 reefs.</p>
+
+                <h4>Why Are Our Corals So Important?</h4>
+                <p>Our reefs are biodiversity hotspots. They cover less than 1% of the ocean floor but are home to 25% of marine species. Without them, beautiful animals such as sea turtles, tropical fish, rays, and many more will have nowhere to live.</p>
+                <p>Beyond the incredible sea life reefs provide shelter to, reefs around the world sustain thousands of jobs in tourism, contributing billions to national economies.</p>
+                <p>Further, reefs around the world provide important research opportunities for scientists to understand the roles reefs play in keeping our oceans healthy.</p>
+
+                <h4>How You Can Help</h4>
+                <p>There's many ways you can help save our reefs, even if you aren't a regular diver. You can get involved in saving our reefs by:</p>
+                <ul>
+                  <li>Reducing your carbon footprint</li>
+                  <li>Spreading the word</li>
+                  <li>Doing a citizen science dive</li>
+                  <li>Planting a tree</li>
+                  <li>Using moorings instead of anchors</li>
+                  <li>Protecting shorelines and riverbanks</li>
+                  <li>Signing up for our "What I can Do" program</li>
+                </ul>
+                <p>For more information on how you can help save our reefs, check out our "What I can Do" Program: <a href="https://whatcanido.coralwatch.org/" target="_blank" rel="noopener">whatcanido.coralwatch.org</a></p>
+              </div>
+
+              <div class="references">
+                <h4>References &amp; Image Sources</h4>
+                <p class="refs-note">Sources consulted and images used while researching and designing this brochure.</p>
+                <div class="refs-group">
+                  <h5>Written Sources</h5>
+                  <ul class="refs-list">
+                    <li><a href="https://wwf.org.au/what-we-do/oceans/great-barrier-reef" target="_blank" rel="noopener">Great Barrier Reef: Why It Matters &amp; How We Can Protect It</a></li>
+                    <li><a href="https://coralwatch.org/about/" target="_blank" rel="noopener">About/CoralWatch | Coral Watch</a></li>
+                    <li><a href="https://coralwatch.org/wp-content/uploads/2023/11/2017_Moreton-Bay-Corals-info-leaflet.pdf" target="_blank" rel="noopener">2017_Moreton-Bay-Corals-info-leaflet.pdf</a></li>
+                  </ul>
+                </div>
+                <div class="refs-group">
+                  <h5>Image Sources</h5>
+                  <ul class="refs-list">
+                    <li><a href="https://content.api.news/v3/images/bin/a8dcd9f809edc38fb989ed26c2517eef" target="_blank" rel="noopener">content.api.news/&hellip;/a8dcd9f809edc38fb989ed26c2517eef</a></li>
+                    <li><a href="https://environment.uq.edu.au/files/59908/coralwatch-monitoring.jpg" target="_blank" rel="noopener">environment.uq.edu.au/&hellip;/coralwatch-monitoring.jpg</a></li>
+                    <li><a href="https://scubaworld.com.au/wp-content/uploads/2022/06/Flinders-800w.jpg" target="_blank" rel="noopener">scubaworld.com.au/&hellip;/Flinders-800w.jpg</a></li>
+                    <li><a href="https://wwf.org.au/hubfs/wwf-migration/prod/RSwwfau_11065_RSwwfau_11065.jpg" target="_blank" rel="noopener">wwf.org.au/&hellip;/RSwwfau_11065_RSwwfau_11065.jpg</a></li>
+                    <li><a href="https://www.advancedsciencenews.com/wp-content/uploads/2024/03/neom-bOMVTvE2QFU-unsplash.jpg" target="_blank" rel="noopener">advancedsciencenews.com/&hellip;/neom-bOMVTvE2QFU-unsplash.jpg</a></li>
+                    <li><a href="https://www.tripsavvy.com/thmb/L6ICqydb1abgtImb-kVtMBDo4qc=/3864x2576/filters:no_upscale():max_bytes(150000):strip_icc()/egypt--red-sea--hurghada--young-woman-snorkeling-at-coral-reef-926722356-5c254cefc9e77c0001f61220.jpg" target="_blank" rel="noopener">tripsavvy.com/&hellip;/egypt-red-sea-hurghada-snorkeling-coral-reef.jpg</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BENEATH OUR FEET -->
+        <article class="work-card">
+          <div class="work-head">
+            <div class="work-meta-row">
+              <span class="chip chip-fiction">Literary Fiction</span>
+              <span class="work-stats">~6 min read</span>
+            </div>
+            <h2>Beneath Our Feet</h2>
+            <p class="work-desc">A short story about two sisters and the shadows who gate the afterlife.</p>
+            <button class="work-toggle" data-toggle aria-expanded="false" aria-controls="work-crows-full">
+              <span class="toggle-label" data-alt-text="Hide the full story">Read the full story</span>
+              <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+          <div id="work-crows-full" class="work-full" hidden>
+            <div class="manuscript">
+              <p>Crows dislike being disturbed. Dark, cowled, always scowling, always fighting. They prowl from street to street, dark shadows cutting dangerous silhouettes in patches of moonlight. Streetlamps flicker and crackle as they pass by, dissolving from one patch of light and reforming at the edge of the next. They walk two dimensionally, as though they are shadows come to life, or perhaps existing in another plane altogether.</p>
+              <p>Father always told me that Crows are harmless. Funny creatures that put on a show for us. Yet, after years spent watching them tear each other apart under the cover of darkness and stride from place to place with great purpose, I must disagree. I know what Father would say in response to that, as well.</p>
+              <p>'You're off in the clouds again, Hat. Ain't not one person ever saw a Crow do nothin' but push other Crows and run real quick. Only thing they're good for is a bitta nighttime entertainment. I don't reckon they could even see us.'</p>
+              <p>And then he'd have another beer and laugh with his buddies from the local Mine, continuing with his merry life of soot filled mornings and drunk afternoons at the usual haunt.</p>
+              <p>I watch intently as another Crow sidles from the shadows of one streetlamp to the next, the signature flicker following behind it. It moves differently to the one before it, a sort of hobble to its stride, though it remains far faster than any human. I'd seen it before, several times, in fact. It was funny that no one else seemed to notice the little, barely seen quirks in each one of the malevolent creatures that walked the dark paths with us. Some walked funny, others wore shadowy head pieces, like top hats, or plague masks. Some Crows wore long, twisting cloaks, whilst others looked to wear fancy, tailored suits. I'd never seen one in shorts and a shirt, though.</p>
+              <p>As far as we were aware, the Crows had been around for centuries, perhaps even since before humanity. There were even records of people describing "ghosts from their nightmares" which lived in strips of moonlight. However, as time passed, we began acknowledging them as nothing but harmless, insubstantial creatures that create puppet shows during the night with their rapidly moving silhouettes. Yet… there was something else to them, I would swear my life on it. Something everyone had missed.</p>
+              <p>Several more Crows dash between the streetlights, and two of them stop to attack each other, tearing great strips of shadow away from one another before breaking apart and slipping off to go separate ways.</p>
+              <p>I hear the light patter of footsteps behind me, a quick glance over my shoulder revealing my sister creeping across the veranda. She spares but a glance for the Crows slipping through the streetlight.</p>
+              <p>'Hi Hat.' She uses her tongue to imitate a hi-hat. 'Ya still trynna figure out the Crows' mysterious secrets?'</p>
+              <p>I nod absentmindedly. 'Yep, and they're proving to be especially mysterious tonight.'</p>
+              <p>She rolls her eyes. 'You say that every night. Ya gonna prove it anytime soon… or?'</p>
+              <p>'Y'know what Ari? Perhaps tonight will be the night.' I say airily, allowing a ghost of a smile to cross my lips.</p>
+              <p>'I'm sure it will be.' She says with a grin.</p>
+              <p>We fall into a comfortable silence for a minute, watching as several more Crows flicker by.</p>
+              <p>'Have you noticed the way they look?' I ask.</p>
+              <p>She raises an eyebrow. 'You mean all shadowy and stuff? Pretty sure everyone in the whole world's noticed that.'</p>
+              <p>I giggle. 'No, I mean like their little hats and suits and things. Y'know, how all of them are dressed different?'</p>
+              <p>'I... suppose?' She says, furrowing her eyebrows. 'What does that have to do with anything?'</p>
+              <p>'Nothing, I guess.' I say. 'I just find it a little strange that they dress like us.'</p>
+              <p>We lapse into another silence, and I spot a Crow across the street, unmoving except for its head, which it moves from side to side rapidly, occasionally craning its neck. It wears a top hat made of shadows, and a scarf and cloak which blow behind it despite its shadowy nature and the lack of wind. It holds a cane in its right hand, wobbling it from side to side, and seems to be tapping its foot on the bottom of the patch of streetlight. I watch it closely. It is not often that a Crow will remain stationary. Most of them seem to have places to be.</p>
+              <p>'You remember Old Benjamin?' Ari asks suddenly.</p>
+              <p>I nod and smile, not taking my eyes off the Crow. 'How could I forget? He would play chess with us every Sunday when we were little and make us hot chocolate whilst Father worked overtime.'</p>
+              <p>Ari grins. 'You were awful at chess.'</p>
+              <p>'I was not!' I turn towards her, pouting.</p>
+              <p>She rolls her eyes, a small smile on her lips. 'Uh huh. Anyways, your poor chess playing aside, you see that Crow over there?' She points at the stationary Crow.</p>
+              <p>I shake my head with a sigh. 'Yes, I see the Crow.'</p>
+              <p>'It kinda looks like Old Benjamin.' She says.</p>
+              <p>'Huh… he sort of does' I say. 'Wha–'</p>
+              <p>Another Crow suddenly lunges from the shadows and out into the streetlight where the Benjamin-looking Crow stands, slashing at his face. Benjamin flails around, seemingly losing his balance. The other Crow — which wields a long pole of shadow and wears a long, dark robe — tears large chunks of shadow off him, tossing them off to fade into nothingness. Both Crows slip out of the streetlight quickly in a tangle of twisting shadows.</p>
+              <p>'Poor Benjamin.' Ari giggles.</p>
+              <p>'Oh, don't make fun of them.' I say. 'They might have feelings.'</p>
+              <p>'Maybe.' Ari says.</p>
+              <p>I turn to her, a frown broaching my features. 'Y'know… That Crow really did look like Old Benjamin.'</p>
+              <p>Ari shrugs. 'Maybe they're imitating us.'</p>
+              <p>A sudden chill races up my spine. 'Do you remember what the pastor said at Benjamin's funeral?'</p>
+              <p>'Not really.' Ari says. 'I just remember crying a lot and placing one of his rooks on his grave. Sad times.' She shakes her head.</p>
+              <p>'The pastor said that Benjamin died peacefully, wearing his favourite top hat and warmest winter cloak, having fallen asleep by his chessboard.' I say. 'And that Crow… Benjamin had a cane just like it. He'd always lean it on the side of the coffee table when he played chess, remember?'</p>
+              <p>She cracks a grin. 'Yeah, and he used to grab it and wobble it whenever he was concentrating. Kinda like what those grandmasters do when they play with the pawns, but with his, like, whole cane.'</p>
+              <p>A sudden, horrid realisation arises from the depths of my mind, and my entire being seems to freeze up. I turn to look at her, my mind frozen, a hollow pit forming in my stomach. Ari closes her mouth, smile fading, and she noticeably swallows.</p>
+              <p>She looks up at me. 'Wait a minute… you don't think…' she trails off.</p>
+              <p>'That they're… us.' I finish, my jaw slack. But it made so much sense. Shades, not shadows. Ghosts of their nightmares, people used to say. Ghosts. Not creatures. Ghosts.</p>
+              <p>'Perhaps it's just… Hell? Purgatory?' Ari asks, a note of desperation creeping into her voice.</p>
+              <p>I shake my head. 'Benjamin was the kindest man I ever knew. He dedicated his entire life to playing chess and making coffees for the community. All anyone had to say was good things… and that Crow, it didn't fight back. It just tried to run. It was him, Ari. I know it.' I say, my breath shortening, a lump forming in the back of my throat. 'That… that's our afterlife.'</p>
+              <p>I shiver again, watching as another pair of Crows tear long strips of shadow from each other as they cross between streetlamps.</p>
+              <p>'It might not be…' Ari says, hugging herself. Then she seems to falter. 'If that's where we're headed… what's the point?' she looks at me. 'What's the point to living, Hat?'</p>
+              <p>An uneasy silence falls over us as I try to come up with something appropriately inspiring to say, whilst inside feeling as though a worm was eating out my heart.</p>
+              <p>'Just… enjoy life while we have it?' I say eventually.</p>
+              <p>'Genius,' she says sarcastically, stealing my top hat.</p>
+              <p>'Well… I'm not exactly a professional,' I say. 'And give me my hat back.'</p>
+              <p>'I was just practicing,' she says with a pout.</p>
+              <p>'That's disturbing,' I say frankly. 'Let's go play a boardgame, and not think about any of this.'</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- SKYWARD MANUAL -->
+        <article class="work-card">
+          <div class="work-head">
+            <div class="work-meta-row">
+              <span class="chip chip-tech">Technical / Genre Writing</span>
+              <span class="work-stats">~5 min read</span>
+            </div>
+            <h2>Skyward Starfighter II — Flight Manual</h2>
+            <p class="work-desc">Ever wondered how to fly a hyperdriven starship from Brandon Sanderson's <i>Skyward?</i> Here's my interpretation.</p>
+            <button class="work-toggle" data-toggle aria-expanded="false" aria-controls="work-skyward-full">
+              <span class="toggle-label" data-alt-text="Hide the full manual">Read the full manual</span>
+              <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+          <div id="work-skyward-full" class="work-full" hidden>
+            <div class="manual">
+              <h3>Skyward Starfighter II: Flight Manual</h3>
+              <p>Congratulations on your new Skyward Starfighter II!</p>
+              <p>Whether you're a new or experienced pilot, you will find the Skyward II will be your smoothest flight experience yet. Between our simple controls, easy-input navigation, and cytonic technology, traversing the stars has never been easier.</p>
+
+              <h4>The Control Panel</h4>
+              <dl class="control-list">
+                <div class="ctrl"><dt>Start Engine Button</dt><dd>Easy-to-use On/Off button with integrated light.</dd></div>
+                <div class="ctrl"><dt>Engage Boosters Switch</dt><dd>Easy-to-use On/Off switch with integrated light.</dd></div>
+                <div class="ctrl"><dt>Directional Control Lever</dt><dd>Controls whether the ship moves forward or reverses.</dd></div>
+                <div class="ctrl"><dt>Throttle Control Lever</dt><dd>Controls the speed your ship will travel.</dd></div>
+                <div class="ctrl"><dt>Hyperdrive Lever</dt><dd>Engages hyperspace travel.</dd></div>
+                <div class="ctrl"><dt>Take-off / Landing Lever</dt><dd>Controls take-off and how fast take-off will be, also controls landing and how fast landing will be.</dd></div>
+                <div class="ctrl"><dt>Input Coordinates</dt><dd>Easily type in coordinates for the electronic screen in latitude, altitude, longitude (X, Y, Z) format.</dd></div>
+                <div class="ctrl"><dt>Viewing Screen</dt><dd>Displays a chart of nearby space. Also displays a recommended route after inputting the coordinates.</dd></div>
+                <div class="ctrl"><dt>Fuel Gauge</dt><dd>Shows how much fuel is left in the ship, and how far the ship can fly before needing to be refuelled.</dd></div>
+                <div class="ctrl"><dt>Coordinates Display</dt><dd>Displays your current coordinates.</dd></div>
+                <div class="ctrl"><dt>Radar</dt><dd>Displays all nearby space debris, spaceships, and planetary objects.</dd></div>
+                <div class="ctrl"><dt>Steering Wheel</dt><dd>Allows you to direct the ship.</dd></div>
+                <div class="ctrl"><dt>Landing Button</dt><dd>Releases the landing stand.</dd></div>
+                <div class="ctrl"><dt>Dashboard</dt><dd>Displays the state of all the ship systems. Green lights mean systems are ready, red means repairs are needed.</dd></div>
+                <div class="ctrl"><dt>1200 Thaum Capacity</dt><dd>Large fuel capacity allows the ship to fly great distances before needing a refuel.</dd></div>
+              </dl>
+
+              <h4>Directions for Take-off, Flight, and Landing</h4>
+              <h5>Taking Off</h5>
+              <ol>
+                <li>Press the "Start Engine" button.</li>
+                <li>Enter destination coordinates. <small>Use the coordinate input screen and corresponding HUD to input your destination coordinates in latitude, altitude, longitude (X, Y, Z) format.</small></li>
+                <li>Switch the "Engage Boosters" switch to flight mode.</li>
+                <li>Slowly push the take-off/land lever. <small>The ship should now slowly lift off the ground.</small></li>
+                <li>Use the directional control lever to set the ship to either forwards or backwards, depending on which direction you would like to take off in.</li>
+                <li>Push the throttle control to your desired speed.</li>
+                <li>Press the autopilot button or use the steering wheel to follow the flightpath on the viewing screen.</li>
+                <li>If necessary, pull the hyperdrive lever to engage hyperspace travel to the hyperspace zone nearest your destination.</li>
+              </ol>
+              <h5>Landing</h5>
+              <ol>
+                <li>Pull the throttle control down to zero. <small>This will bring the ship to a stop.</small></li>
+                <li>Switch the "Engage Boosters" switch to landing mode.</li>
+                <li>Slowly pull the take-off/land lever towards you. <small>The ship will then lower itself towards the ground.</small></li>
+                <li>Direct the ship to the desired landing location using the steering wheel.</li>
+                <li>Press the landing button to release the landing stand.</li>
+                <li>Switch the "Engage Boosters" switch to off.</li>
+                <li>Press the "Start Engine" button to turn the ship off.</li>
+              </ol>
+
+              <h4>Theory of Operation</h4>
+              <p>Cytonic (hyperspace) travel can be used by certain species of alien or human life. It is a method of travel which involves "leaping" through hyperspace to reach a designated set of coordinates almost instantly. Our ships make use of a species of slug called a taynix, which can travel cytonically. The taynix uses cytonic communication to send signals to other members of its species. We have been able to replicate these signals, so that upon pulling the hyperdrive lever, the Skyward II will send the taynix a location based on your coordinates. The taynix will then perform a cytonic jump, pulling the ship with it through hyperspace.</p>
+
+              <h4>Warnings</h4>
+              <ul class="warnings-list">
+                <li class="sev-danger"><strong>DANGER:</strong> Do not use anything other than Thaums to power this ship.</li>
+                <li class="sev-danger"><strong>DANGER:</strong> Do not attempt to open the cockpit while ship is in motion.</li>
+                <li class="sev-danger"><strong>DANGER:</strong> Do not disrupt the taynix during hyperspace travel.</li>
+                <li class="sev-warning"><strong>WARNING:</strong> Do not ignore red warning indicators on the dashboard.</li>
+                <li class="sev-warning"><strong>WARNING:</strong> Always verify airlock seals are intact before taking off.</li>
+                <li class="sev-warning"><strong>WARNING:</strong> Always ensure you have enough fuel to make the trip.</li>
+                <li class="sev-caution"><strong>CAUTION:</strong> When landing, always ensure you land in an open space or dock to avoid damage to the ship.</li>
+                <li class="sev-caution"><strong>CAUTION:</strong> Do not use unlicensed, or foreign-powered technology when on board the ship.</li>
+                <li class="sev-caution"><strong>CAUTION:</strong> Do not let the taynix out of its habitat.</li>
+                <li class="sev-caution"><strong>CAUTION:</strong> Do not frighten the taynix (they tend to cytonic jump randomly when scared).</li>
+              </ul>
+
+              <h4>Troubleshooting</h4>
+              <dl class="faq-list">
+                <div><dt>Problem: Hyperdrive isn't working.</dt><dd>Solution: The most common cause of your hyperdrive not working is a piece of foreign technology interfering with the ship's attempt to communicate with the taynix. Either remove or switch off any traditional communication technology, as well as any foreign cytonic technology.</dd></div>
+                <div><dt>Problem: Boosters won't engage.</dt><dd>Solution: The Boosters will not engage if any doors are open, or if there is a problem with the airlock seals. Check to make sure all airlock seals are intact and ensure both the cockpit and side-doors are closed.</dd></div>
+                <div><dt>Problem: Ship will not leave the current atmosphere.</dt><dd>Solution: This problem typically occurs when there is not enough fuel to reach your intended destination. The Skyward II will always calculate the estimated fuel usage for your trip and will stop you from leaving the current atmosphere if you do not have enough fuel. To solve this, either refuel your ship on your current planet, or search for a Thaumic fuel station on a nearby planet or system that your ship can jump to.</dd></div>
+              </dl>
+
+              <h4>FAQ</h4>
+              <dl class="faq-list">
+                <div><dt>Do I need to do anything while the ship is in hyperdrive?</dt><dd>No, the Skyward II uses designated hyperdrive zones to move the ship through hyperspace. When you jump through hyperspace, the ship will select the closest hyperdrive zone to your location, and transport you there automatically. From there, you can either leave the ship on autopilot or steer it manually to your destination.</dd></div>
+                <div><dt>How do I avoid any obstacles on the ship's flightpath?</dt><dd>The Skyward II will automatically detect obstacles using the radar and will avoid them when in autopilot mode.</dd></div>
+                <div><dt>How will I know if the ship needs repairs?</dt><dd>On the dashboard (located behind the steering wheel), red warning lights will appear to indicate whether the ship needs any repairs, and where the repairs will need to be.</dd></div>
+                <div><dt>Where can I get Thaum fuel?</dt><dd>If you've never used Thaum fuel before, don't worry! There are plenty of planets which sell Thaum fuel. Simply search for nearby fuel stations using the navigation screen and fly to them as normal.</dd></div>
+                <div><dt>When should I use hyperdrive?</dt><dd>Hyperdrive isn't always necessary, especially if the planet you wish to travel to is close by. However, we recommend using hyperdrive whenever you are travelling between solar systems or larger gaps, otherwise the travel time will simply be too long.</dd></div>
+                <div><dt>Do I need to take care of the taynix?</dt><dd>No, the taynix resides in a large habitat in the back of the ship, and feeds on Thaums. A small portion of the ship's fuel is automatically sent to the taynix's habitat, so there's no need to worry about the taynix.</dd></div>
+                <div><dt>What if the taynix decides to cytonic jump on its own?</dt><dd>The taynix uses the cytonic jump primarily as an escape method if it feels frightened. The Skyward II provides the taynix with a comfortable habitat which it will see no need to escape from. On the extremely rare occasion that the taynix does jump on its own, you can simply input your previous coordinates (stored in the navigation screen history) and engage the hyperdrive. The taynix will then jump back to where you were previously.</dd></div>
+              </dl>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card template-box work-card-add">
+          <span class="template-tag">Template — add more work</span>
+          <p class="placeholder-text">Add another piece here — poetry, journalism, screenwriting, a second short story. Copy the structure of the cards above: a genre tag, a logline, a short description, and the full piece behind a "Read" toggle.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="page-inner footer-inner">
+    <span>© <span id="year"></span> willvidore</span>
+  </div>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 4l16 16M20 4L4 20"/></svg></button>
+  <img src="" alt="">
+</div>
+
+<script src="../site.js"></script>
+</body>
+</html>
